@@ -24,7 +24,7 @@ public class AppMain{
 	}
 
 	static void test_and_print_string(String s){
-		var test = StringExercise.test_string(s);
+		var test = StringExercise.string_checker(s);
 		System.out.println("testing string: " + s + ": " + test);
 	}
 
