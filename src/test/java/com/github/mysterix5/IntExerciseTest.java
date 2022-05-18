@@ -16,6 +16,12 @@ class IntExerciseTest {
         assertTrue(IntExercise.check_overly_big_number(big));
         assertFalse(IntExercise.check_overly_big_number(negative));
     }
+    @Test
+    void tests_overly_big_int_should_be_true() {
+        int big = 101;
+
+        assertTrue(IntExercise.check_overly_big_number(big));
+    }
 
     @Test
     void add() {
